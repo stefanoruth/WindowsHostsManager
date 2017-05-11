@@ -1,0 +1,16 @@
+{
+    "name": "kodo/windows-hosts",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "symfony/console": "^3.2"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Kodo\\WindowsHosts\\": "src/"
+    	}
+    },
+    "bin": [
+    	"hosts"
+    ]
+}
