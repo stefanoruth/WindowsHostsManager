@@ -1,5 +1,5 @@
 {
-    "name": "kodo/windows-hosts",
+    "name": "stefanoruth/windows-hosts-manager",
     "type": "project",
     "license": "MIT",
     "require": {
@@ -7,7 +7,7 @@
     },
     "autoload": {
     	"psr-4": {
-    		"Kodo\\WindowsHosts\\": "src/"
+    		"StefanoRuth\\WindowsHostsManager\\": "src/"
     	}
     },
     "bin": [

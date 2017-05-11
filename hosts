@@ -8,9 +8,9 @@ if (file_exists(__DIR__.'/../../autoload.php')) {
 }
 
 $app = new Symfony\Component\Console\Application('Windows Hosts Manager', '1.0.0');
-$app->add(new Kodo\WindowsHosts\ShowHostsCommand);
-$app->add(new Kodo\WindowsHosts\AddHostCommand);
-$app->add(new Kodo\WindowsHosts\RemoveHostCommand);
-$app->add(new Kodo\WindowsHosts\ToggleHostCommand);
+$app->add(new StefanoRuth\WindowsHostsManager\ShowHostsCommand);
+$app->add(new StefanoRuth\WindowsHostsManager\AddHostCommand);
+$app->add(new StefanoRuth\WindowsHostsManager\RemoveHostCommand);
+$app->add(new StefanoRuth\WindowsHostsManager\ToggleHostCommand);
 
 $app->run();

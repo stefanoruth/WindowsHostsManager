@@ -1,8 +1,8 @@
 <?php
 
-namespace Kodo\WindowsHosts;
+namespace StefanoRuth\WindowsHostsManager;
 
-use Kodo\WindowsHosts\Host;
+use StefanoRuth\WindowsHostsManager\HostFile;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Input\InputArgument;
